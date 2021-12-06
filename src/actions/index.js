@@ -23,7 +23,13 @@ export const ADD_MEMORY = "ADD_MEMORY";
 export const addMemory = () => {
     return({type:ADD_MEMORY});
 }
+
 export const MEMORY_READ = "MEMORY_READ";
 export const memoryRead = () => {
     return({type:MEMORY_READ})
+}
+
+export const MEMORY_CLEAR = "MEMORY_CLEAR";
+export const memoryClear = () => {
+    return({type:MEMORY_CLEAR})
 }
