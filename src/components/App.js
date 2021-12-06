@@ -16,6 +16,9 @@ function App() {
   const handleOperator = (operator) =>{
     dispatch(changeOperation(operator))
   }
+  const handleClear = () => {
+    dispatch(clearDisplay())
+  }
   
   return (
     <div className="App">
@@ -64,7 +67,7 @@ function App() {
             </div>
 
             <div className="row ce_button">
-              <CalcButton  value={"CE"}/>
+              <CalcButton onClick={() => handleClear()} value={"CE"}/>
             </div>
 
           </form>
