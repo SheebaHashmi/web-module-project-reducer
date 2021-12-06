@@ -18,3 +18,12 @@ export const CLEAR_DISPLAY = "CLEAR_DISPLAY";
 export const clearDisplay  = () => {
     return({type:CLEAR_DISPLAY});
 }
+
+export const ADD_MEMORY = "ADD_MEMORY";
+export const addMemory = () => {
+    return({type:ADD_MEMORY});
+}
+export const MEMORY_READ = "MEMORY_READ";
+export const memoryRead = () => {
+    return({type:MEMORY_READ})
+}
