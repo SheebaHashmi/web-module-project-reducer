@@ -18,7 +18,6 @@ const calculateResult = (num1, num2, operation) => {
 }
 
 const reducer = (state, action) => {
-    console.log(action.payload)
     switch(action.type) {
         case(ADD_ONE):
             return({
